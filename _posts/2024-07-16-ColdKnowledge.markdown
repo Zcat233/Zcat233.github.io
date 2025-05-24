@@ -15,6 +15,31 @@ tags: []
 
 ---
 
+## 2025
+
+---
+
+#### 5.24
+.wav文件不支持元数据（例如歌词，音乐封面），但.mp3，.ogg等可以。
+
+---
+
+#### 3.21
+对于方程$ax^3+bx^2+cx+d=0$,
+$$
+\begin{aligned}
+x_1+x_2+x_3=-\frac{b}{a} \\
+x_1x_2+x_2x_3+x_1x_3=\frac{c}{a} \\
+x_1x_2x_3=-\frac{d}{a}
+\end{aligned}
+$$
+
+---
+
+## 2024
+
+---
+
 #### 11.23
 Everything has its wonders, even darkness and silence.<br>
 万物皆奇迹，乃至黑暗与寂静。
