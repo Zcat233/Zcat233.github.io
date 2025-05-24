@@ -1,9 +1,9 @@
 # Site settings
 title: Zcat Blog
 SEOTitle: Zcat的主页 | Zcat Blog
-header-img: img/PlumBlossom.jpg
+header-img: img/park.jpg
 email: 无
-description: "这里是 hyz 的个人网站。使用了 huxpro 的模板。"
+description: "这里是 Zcat233 [hyz] 的个人网站。使用了 huxpro 的模板。"
 keyword: "Zcat233, Zcat, hyz"
 url: "https://huangxuan.me" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
