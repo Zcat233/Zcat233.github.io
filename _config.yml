@@ -74,8 +74,8 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "在学校坐牢ing..."
-sidebar-avatar: https://chinadlrs.com/space/upload/20221015130943.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "在与解析几何斗争ing..."
+sidebar-avatar: https://cn-nb1.rains3.com/chinadlrs/user/20250221214921.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: false # whether or not using Feature-Tags
