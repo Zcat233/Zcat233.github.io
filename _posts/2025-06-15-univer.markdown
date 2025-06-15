@@ -4,8 +4,8 @@ title: 备战大学
 subtitle: 
 date: 2025-06-15 11:10:00
 author: hyz
-header-img: img/background/library.jpg
-catalog: false
+header-img: img/background/darklibrary.jpg
+catalog: true
 tags:
 ---
 
@@ -38,3 +38,15 @@ tags:
         专业1：临床医学，`562`分
         专业2：麻醉学，`562`分
         原因：更加稳定
+
+---
+
+### 我的高考目标分数
+总分：570
+
+>语文：105<br>
+>数学：129<br>
+>英语：132<br>
+>物理：67<br>
+>化学：67<br>
+>生物：70
