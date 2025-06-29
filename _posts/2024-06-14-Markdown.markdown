@@ -49,6 +49,16 @@ tags:
 
 [必应主页](bing.com)<br>
 
+<iframe 
+    src="https://zcat233.github.io" 
+    title="Zcat233"
+    width="100%" 
+    height="600px" 
+    frameborder="0"
+    allow="geolocation; microphone; camera"
+    allowfullscreen>
+</iframe>
+
 这是最近的一张[必应壁纸](https://peapix.com/bing)。
 ![图片](https://img.peapix.com/dbc45c6900bb4bca99ad059910dde8c6_UHD.jpg "龙舟池日出，集美区，厦门，中国")
 
