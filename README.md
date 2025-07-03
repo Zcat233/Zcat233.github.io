@@ -1,4 +1,4 @@
-[Hux Blog](https://huangxuan.me)
+[Zcat Blog](https://zcat233.github.io/)
 ================================
 
 > I never expected this to become popular.
