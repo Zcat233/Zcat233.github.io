@@ -1,6 +1,12 @@
 [Zcat Blog](https://zcat233.github.io/)
 ================================
 
+Hi! Here's Zcat Blog. I can record my thoughts, feeling, and everything I'd like to write in the website.
+
+Below is the README of the blog's original author.
+
+---
+
 > I never expected this to become popular.
 
 ![](http://huangxuan.me/img/blog-desktop.jpg)
