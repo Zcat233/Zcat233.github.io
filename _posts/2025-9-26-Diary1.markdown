@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      "9/26"
+subtitle:   "累死我了"
+date:       2015-01-29 12:00:00
+author:     "Zcat233"
+header-img: "img/boat.jpg"
+catalog: true
+mathjax: true
+tags:
+---
+
 亲爱的老师们，敬爱的同学们：
 # 你们不好。你们爱睡觉的就赶紧给我睡觉去。
 ---
