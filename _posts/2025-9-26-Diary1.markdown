@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "9/26"
+title:      "9.26"
 subtitle:   "累死我了"
 date:       2015-01-29 12:00:00
 author:     "Zcat233"
