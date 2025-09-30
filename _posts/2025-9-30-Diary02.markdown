@@ -4,7 +4,7 @@ title: "9.30"
 subtitle: 
 date: 2025-09-30 18:30:00
 author: Zcat233
-header-img: img/background/9-30.png
+header-img: img/background/20250930.jpg
 catalog: true
 mathjax: false
 tags:
