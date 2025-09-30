@@ -8,6 +8,7 @@ header-img: "img/background/20250926.jpg"
 catalog: true
 mathjax: true
 tags:
+  - Diary
 ---
 
 亲爱的老师们，敬爱的同学们：
