@@ -344,3 +344,4 @@ uint8_t getFingerprintID()
 }
 
 #define mySerial Serial1
+
