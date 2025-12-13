@@ -57,7 +57,7 @@ lqx又换座位。一位卷帘大将从最后一排被拉到了第一排。
 今年浦东一模堪称出生。B篇的答案甚至不同学校还不一样。不要以为把人家的服务改个名字我就认不出来。Akismet的名气不小。
 
 哪个出生把Akismet改成了Metsika，还把整个网页的排版打乱到一个莫名其妙的地步。灰色字的前面根本没有什么链接，这是对整片文章的注释。a Creative Commons Sharealike license是一个开源协议，绝对不是他们家的使用条款或者许可证，不撸代码的人是完全不知道的。用这些东西出题目纯恶心。
-![Akismet](https://zcat233.github.io/img/inpost/Akismet.jpg "Akismet")
+![Akismet](https://zcat233.github.io/img/inpost/Akismet.png "Akismet")
 ![ShareAlike](https://zcat233.github.io/img/inpost/ShareAlike.png "ShareAlike")
 
 ---
