@@ -4,9 +4,8 @@ title: "12.12"
 subtitle: 三个星期的碎碎念，有点乱
 date: 2025-12-13 13:30:00
 author: Zcat233
-header-img: img/NorthLand.jpeg
+header-img: img/LittleLeaves.png
 catalog: true
-mathjax: true
 tags:
   - Diary
 ---
