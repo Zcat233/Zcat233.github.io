@@ -43,4 +43,8 @@ tags:
 
 数学周考为了把解析几何第三问写出来，直接决定<span style="font-size: 32px;">分配40分钟高强度计算的超大神经内存</span>，然后......解方程解出来一个魔丸数字
 ![DLFO](https://zcat233.github.io/img/inpost/DLFO.png "DLFO")
-很多人对这些东西没概念~~，巧了我也没有~~。但是我查了一下，一个电脑游戏的Batches大概是一千多，能到五万的都算奇迹了。<span style="font-size: 30px; font-weight: bold;">当时我的脑子应该就是这个状态😄</span>
+<span style="font-size: 30px; font-weight: bold;">当时我的脑子应该就是这个状态😄</span>
+
+---
+
+周五意外收到了玮哥通过localhost送来的明信片！内容好像和纯唠嗑差不多~~（bushi）~~，而且附带一堆贴纸，很好玩awa
