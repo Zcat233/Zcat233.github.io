@@ -4,7 +4,7 @@ title:      "9.26"
 subtitle:   "累死我了"
 date:       2025-09-26 23:00:00
 author:     "Zcat233"
-header-img: "img/background/20250926.jpg"
+header-img: "img/background/Garden-City-Outside-The-Window.jpg"
 catalog: true
 mathjax: true
 tags:
