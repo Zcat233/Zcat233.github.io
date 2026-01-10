@@ -26,6 +26,7 @@ tags: []
 
 #### 3.21
 对于方程$ax^3+bx^2+cx+d=0$,
+
 $$
 \begin{aligned}
 x_1+x_2+x_3=-\frac{b}{a} \\
