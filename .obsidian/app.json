@@ -1,7 +1,8 @@
 {
-  "showUnsupportedFiles": true,
+  "showUnsupportedFiles": false,
   "newFileLocation": "current",
   "attachmentFolderPath": "img/inpost",
   "alwaysUpdateLinks": true,
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "promptDelete": false
 }
