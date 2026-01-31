@@ -4,5 +4,7 @@
   "phycat-spacing@@letter-spacing": 1,
   "phycat-spacing@@line-height-customize": 1.8,
   "zen@@win-window-opacity": 1,
-  "zen@@win-bg-image-url": "url('https://img.peapix.com/d6af9befd0c84e368940c213cd2bc30a_UHD.jpg')"
+  "zen@@win-bg-image-url": "url('https://img.peapix.com/d6af9befd0c84e368940c213cd2bc30a_UHD.jpg')",
+  "phycat-theme-settings@@light-color-scheme": "theme-light-mint",
+  "phycat-headings@@h2-style-select": "h2-style-capsule"
 }
