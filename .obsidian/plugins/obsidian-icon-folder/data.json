@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiImage",
+      "LiFileSpreadsheet",
+      "LiAppWindow",
+      "LiSquareDashed",
+      "LiAsteriskSquare"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "_doc": "LiDock",
+  "img": "LiImage",
+  "js": "LiFileJson",
+  "css": "LiFileJson2",
+  "_posts": "LiTableOfContents",
+  "fonts": "LiLetterText",
+  "_layouts": "LiLayers",
+  "_includes": "LiAsteriskSquare",
+  "less": "LiSquareDashed",
+  "pwa": "LiAppWindow",
+  "README.md": "LiFileSpreadsheet"
+}
