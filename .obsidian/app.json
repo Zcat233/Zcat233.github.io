@@ -6,7 +6,7 @@
   "useMarkdownLinks": true,
   "promptDelete": false,
   "pdfExportSettings": {
-    "pageSize": "Letter",
+    "pageSize": "A5",
     "landscape": false,
     "margin": "1",
     "downscalePercent": 100
