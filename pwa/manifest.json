@@ -1,7 +1,7 @@
 {
-  "name": "Hux Blog",
-  "short_name": "Hux Blog",
-  "description": "About an engineer & designer who loves web.",
+  "name": "Zcat Blog",
+  "short_name": "Zcat Blog",
+  "description": "Meow!",
   "icons": [{
     "src": "icons/128.png",
     "sizes": "128x128",
