@@ -8,5 +8,10 @@
   "phycat-theme-settings@@light-color-scheme": "theme-light-mint",
   "phycat-headings@@h2-style-select": "h2-style-capsule",
   "phycat-layout@@layout-style": "layout-default",
-  "phycat-headings@@h2-style-dark-select": "h2-style-dark-capsule"
+  "phycat-headings@@h2-style-dark-select": "h2-style-dark-capsule",
+  "Appearance@@bg@@dark": "#24283B",
+  "Appearance@@bg_dark@@dark": "#1F2335",
+  "Appearance@@bg_highlight@@dark": "#292E42",
+  "Appearance@@bg_highlight_dark@@dark": "#1F2335",
+  "Appearance@@bg_dark2@@dark": "#1B1E2D"
 }
