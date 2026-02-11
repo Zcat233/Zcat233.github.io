@@ -11,7 +11,7 @@
   "emptyFolderBehavior": "Keep",
   "excludePaths": [],
   "excludePathsFromAttachmentCollecting": [],
-  "generatedAttachmentFileName": "_file-${date:{momentJsFormat:'MMDDHHmmss'}}",
+  "generatedAttachmentFileName": "_file-${date:{momentJsFormat:'MMDD-HH:mm:ss'}}",
   "includePaths": [],
   "jpegQuality": 0.8,
   "markdownUrlFormat": "",
