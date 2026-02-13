@@ -20,16 +20,25 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', function(){
-  // 查找所有 a 标签，文本内容为纯数字，且 href 以图片结尾
+  // 1. 处理 ![数字](url) 图片
+  document.querySelectorAll('img').forEach(function(img){
+    var alt = img.getAttribute('alt');
+    var match = alt && alt.trim().match(/^(\d+)$/);
+    if(match){
+      img.style.width = match[1] + "px";
+      img.style.display = "block";
+    }
+  });
+  // 2. 处理 [数字](url) a 标签
   document.querySelectorAll('a').forEach(function(link){
     var txt = link.textContent.trim();
     var href = link.getAttribute('href');
-    if(/^\d+$/.test(txt) && /\.(jpg|jpeg|png|gif|webp|svg)$/.test(href)){
+    if(/^\d+$/.test(txt) && /\.(jpg|jpeg|png|gif|webp|svg)$/i.test(href)){
       var img = document.createElement('img');
       img.src = href;
       img.style.width = txt + "px";
-      // 如果md用了 ![xxx] 还要考虑alt
       img.alt = "";
+      img.style.display = "block";
       link.parentNode.replaceChild(img, link);
     }
   });
