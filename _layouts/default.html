@@ -18,6 +18,24 @@
 <img src="/img/icon_wechat.png" width="0" height="0" />
 <!-- Migrate from head to bottom, no longer block render and still work -->
 
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  // 查找所有 a 标签，文本内容为纯数字，且 href 以图片结尾
+  document.querySelectorAll('a').forEach(function(link){
+    var txt = link.textContent.trim();
+    var href = link.getAttribute('href');
+    if(/^\d+$/.test(txt) && /\.(jpg|jpeg|png|gif|webp|svg)$/.test(href)){
+      var img = document.createElement('img');
+      img.src = href;
+      img.style.width = txt + "px";
+      // 如果md用了 ![xxx] 还要考虑alt
+      img.alt = "";
+      link.parentNode.replaceChild(img, link);
+    }
+  });
+});
+</script>
+
 </body>
 
 </html>
