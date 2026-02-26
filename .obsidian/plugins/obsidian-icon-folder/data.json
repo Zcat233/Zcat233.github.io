@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiHighlightrPen",
+      "LiNotebook",
       "LiImage",
       "LiFileSpreadsheet",
-      "LiAppWindow",
-      "LiSquareDashed",
-      "LiAsteriskSquare"
+      "LiAppWindow"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -44,5 +44,6 @@
   "_includes": "LiAsteriskSquare",
   "less": "LiSquareDashed",
   "pwa": "LiAppWindow",
-  "README.md": "LiFileSpreadsheet"
+  "README.md": "LiFileSpreadsheet",
+  "_archive": "LiAppWindow"
 }
