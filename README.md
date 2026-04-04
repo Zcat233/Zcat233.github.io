@@ -5,8 +5,6 @@
 
 Hi! This is Zcat Blog. I can record my life, thoughts, feelings, and everything I'd like to record in this blog.
 
-I added a small feature in this [script](https://github.com/Zcat233/Zcat233.github.io/blob/master/_layouts/default.html), which allows you to control the size of images in the blog content. Scripts by ChatGPT.
-
 Stated below is the README of Hux Blog.
 
 ---
