@@ -24,6 +24,10 @@
 
 ### 许可证
 
+![Apache License 2.0](https://img.shields.io/badge/License-Apache%20License%202.0-brightgreen?style=for-the-badge)
+
+![CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-informational?style=for-the-badge)
+
 本项目包含**代码**和**内容**两部分，采用不同的许可证。
 
 代码部分使用 **Apache License 2.0** 许可证。
