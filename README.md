@@ -1,9 +1,13 @@
 [Zcat Blog](https://zcat233.github.io/)
 ================================
 
-Hi! Here's Zcat Blog. I can record my thoughts, feeling, and everything I'd like to write in the website.
+除非特殊注明，如果你想转载或改编博客里的原创内容（文字，图片等），请先通过 [zcat336886@outlook.com] 联系Zcat233。
 
-Below is the README of the blog's original author.
+Hi! This is Zcat Blog. I can record my life, thoughts, feelings, and everything I'd like to record in this blog.
+
+I added a small feature in this [script](https://github.com/Zcat233/Zcat233.github.io/blob/master/_layouts/default.html), which allows you to control the size of images in the blog content. Scripts by ChatGPT.
+
+Stated below is the README of Hux Blog.
 
 ---
 
@@ -62,7 +66,11 @@ Translation
 License
 -------
 
-Apache License 2.0.
+Apache License 2.0 (for code)
+CC BY-NC-ND 4.0 (for content)
+Copyright (c) 2024-2026 Zcat233
+
+Zcat Blog is derived from [Hux Blog (Apache License 2.0)](https://github.com/Huxpro/huxpro.github.io)
 Copyright (c) 2015-present Huxpro
 
 Hux Blog is derived from [Clean Blog Jekyll Theme (MIT License)](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/)
