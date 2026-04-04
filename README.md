@@ -1,7 +1,7 @@
 [Zcat Blog](https://zcat233.github.io/)
 ================================
 
-除非特殊注明，如果你想转载或改编博客里的原创内容（文字，图片等），请先通过 [zcat336886@outlook.com] 联系Zcat233。
+除非特殊注明，否则在转载或改编博客里的原创内容（文字，图片等）前，请先通过 [zcat336886@outlook.com] 联系Zcat233。
 
 Hi! This is Zcat Blog. I can record my life, thoughts, feelings, and everything I'd like to record in this blog.
 
