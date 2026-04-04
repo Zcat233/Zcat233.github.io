@@ -25,10 +25,14 @@ Some articles on this site are copied from other sources. If any content infring
 
 ### License
 
+![Apache License 2.0](https://img.shields.io/badge/License-Apache%20License%202.0-brightgreen?style=for-the-badge)
+
+![CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-informational?style=for-the-badge)
+
 This project includes **code** and **content** under two different licenses.
 
 The **code** is licensed under the **Apache License 2.0**.
 
-Blog posts, images, text, and other content are licensed under the **CC BY-NC-ND 4.0** license.
+**Blog posts, images, text, and other content** are licensed under the **CC BY-NC-ND 4.0** license.
 
 In short, unless otherwise noted, please contact Zcat233 at [zcat336886@outlook.com] for permission before republishing or adapting any original content.

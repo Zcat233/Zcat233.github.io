@@ -58,6 +58,16 @@
     </a>
   </li>
   {% endif %}
+  {% if site.bilibili_uid %}
+  <li>
+    <a target="_blank" href="https://bilibili.com/{{ site.bilibili_uid }}">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-bilibili fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+  </li>
+  {% endif %}
   {% if site.github_username %}
   <li>
     <a target="_blank" href="https://github.com/{{ site.github_username }}">
