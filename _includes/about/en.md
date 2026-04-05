@@ -25,9 +25,9 @@ Some articles on this site are copied from other sources. If any content infring
 
 ### License
 
-![Apache License 2.0](https://img.shields.io/badge/License-Apache%20License%202.0-brightgreen?style=for-the-badge)
+[![Apache License 2.0](https://img.shields.io/badge/License-Apache%20License%202.0-brightgreen?style=for-the-badge)](/LICENSE)
 
-![CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-informational?style=for-the-badge)
+[![CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-informational?style=for-the-badge)](/LICENSE.content)
 
 This project includes **code** and **content** under two different licenses.
 
