@@ -1,8 +1,11 @@
 {
-  "cssTheme": "Phycat",
+  "cssTheme": "Minimal",
   "theme": "moonstone",
   "interfaceFontFamily": "霞鹜文楷",
   "textFontFamily": "霞鹜文楷",
   "monospaceFontFamily": "霞鹜文楷",
-  "accentColor": ""
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "line-width"
+  ]
 }
