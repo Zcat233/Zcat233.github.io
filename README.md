@@ -1,6 +1,10 @@
 [Zcat Blog](https://zcat233.github.io/)
 ================================
 
+[![Apache License 2.0](https://img.shields.io/badge/License-Apache%20License%202.0-brightgreen?style=for-the-badge)](/LICENSE)
+
+[![CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-informational?style=for-the-badge)](/LICENSE.content)
+
 除非特殊注明，否则在转载或改编博客里的原创内容（文字，图片等）前，请先通过 [zcat336886@outlook.com] 联系Zcat233。
 
 Hi! This is Zcat Blog. I can record my life, thoughts, feelings, and everything I'd like to record in this blog.
