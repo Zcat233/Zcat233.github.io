@@ -1,17 +1,15 @@
 ---
 layout: post
-title: "4.03"
+title: 《金山中学滑稽列传·罗兵本纪》
 subtitle:
-date: 2026-04-03 17:09:00
+date: 2026-04-03 20:31:00
 author: Zcat233
-header-img: img/background/SpringFlower.jpg
+header-img: img/background/lb.png
 catalog: true
 mathjax: false
 tags:
   - Diary
 ---
-
-## 《金山中学滑稽列传·罗兵本纪》 
 
 > 这是金山中学怪诞小说的巅峰之作，堪称金中的《悲惨世界》。现在把全文抄录于此，并做出修改。
 
@@ -32,15 +30,3 @@ tags:
 校长大骇，循声而至。罗兵急中生智：“此乃新型教学法！”遂令诸生颂元素周期表歌。唐柳傲改词为摇滚版，郭伯雯击桌伴奏，圆圆以试管盛彩虹元素糖分赠众人。校长瞠目结舌而退，喃喃道：“疯人院墙倒矣……”
 
 及至月考，该班化学均分竟冠绝年级。众师长惊问其故，沙景岩叹：“为纠罗师之谬，吾等夜读《普化原理》至三更。”此所谓“歪打正着”乎？
-
----
-
-不用多说了，另一位鬼才制作。
-
-![600](/img/inpost/star.png)
-
----
-
-又是一张不让ai重绘就放不出来的图↓
-
-![650](/img/inpost/willow.png)
