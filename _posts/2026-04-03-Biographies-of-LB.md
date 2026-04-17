@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 《金山中学滑稽列传·罗兵本纪》
+title: 金山中学滑稽列传·罗兵本纪
 subtitle:
 date: 2026-04-03 20:31:00
 author: Zcat233
