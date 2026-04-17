@@ -8,7 +8,6 @@ header-img: img/background/lbpro.png
 catalog: true
 mathjax: false
 tags:
-  - Diary
 ---
 
 > 这是金山中学怪诞小说的巅峰之作，堪称金中的《悲惨世界》。现在把全文抄录于此，并做出修改。
