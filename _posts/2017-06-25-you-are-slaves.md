@@ -7,7 +7,6 @@ header-style: text
 catalog: false
 hidden: true
 tags:
-  - HuxBlog
 ---
 
 > 在知乎被删帖，我理解知乎。
