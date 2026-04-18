@@ -5,6 +5,7 @@ subtitle:
 date: 2026-04-03 20:31:00
 author: Zcat233
 header-img: img/background/lbpro.png
+header-mask: 0.3
 tags:
 ---
 
