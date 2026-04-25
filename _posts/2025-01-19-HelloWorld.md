@@ -9,7 +9,6 @@ catalog: false
 mathjax: true
 tags:
 ---
-
 𝑬𝒗𝒆𝒓𝒚𝒕𝒉𝒊𝒏𝒈 𝒉𝒂𝒔 𝒊𝒕𝒔 𝒘𝒐𝒏𝒅𝒆𝒓𝒔, 𝒆𝒗𝒆𝒏 𝒅𝒂𝒓𝒌𝒏𝒆𝒔𝒔 𝒂𝒏𝒅 𝒔𝒊𝒍𝒆𝒏𝒄𝒆.<br>
 万物皆奇迹，乃至黑暗与寂静。
 <div style="text-align: right;">—— 𝑯𝑬𝑳𝑬𝑵 𝑲𝑬𝑳𝑳𝑬𝑹</div>

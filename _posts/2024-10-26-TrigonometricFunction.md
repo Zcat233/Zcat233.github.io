@@ -9,7 +9,6 @@ catalog: true
 mathjax: true
 tags:
 ---
-
 #### 1. 二倍角的正弦、余弦、正切公式：
 
 $$
