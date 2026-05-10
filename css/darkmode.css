@@ -14,13 +14,6 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-body.dark-mode .navbar-custom,
-body.dark-mode footer,
-body.dark-mode .intro-header {
-  background-color: var(--header-bg) !important;
-  border-color: var(--border-color);
-}
-
 body.dark-mode .post-preview > a > .post-title,
 body.dark-mode .post-content {
   color: var(--text-color) !important;
