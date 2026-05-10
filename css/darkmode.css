@@ -1,8 +1,8 @@
 body.dark-mode {
-  --bg-color: #242424;
+  --bg-color: #222222;
   --text-color: #e0e0e0;
   --accent-color: #bb86fc; 
-  --secondary-text: #ff00ff;
+  --secondary-text: #a0a0a0;
   --card-bg: #1e1e1e;
   --border-color: #333333;
   --header-bg: #242424;
@@ -19,6 +19,114 @@ body.dark-mode .post-content {
   color: var(--text-color) !important;
 }
 
-body.dark-mode img {
-  filter: brightness(.8) contrast(1.1);
+body.dark-mode .post-preview > a > .post-subtitle {
+    color: #e0e0e0 !important;
+}
+
+body.dark-mode .post-content-preview {
+    color: #888888 !important;
+}
+
+body.dark-mode blockquote {
+    border-left-color: var(--border-color) !important;
+}
+
+body.dark-mode .pager li > a {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+body.dark-mode .pager li > a:hover {
+    background-color: #0085a1 !important;
+    color: white !important;
+    border: 1px solid #0085a1 !important;
+}
+
+@media only screen and (max-width: 767px) {
+    /* 边栏背景黑色 */
+    body.dark-mode .navbar-default .navbar-collapse {
+        background-color: var(--bg-color) !important;
+        border: 1px solid var(--border-color) !important;
+        box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.6) !important;
+    }
+
+    /* 边栏文字白色 */
+    body.dark-mode .navbar-default .navbar-nav > li > a {
+        color: var(--text-color) !important;
+    }
+
+    /* 边栏图标（月亮、搜索）同步变为白色 */
+    body.dark-mode .search-icon a,
+    body.dark-mode .search-icon-close {
+        color: var(--text-color) !important;
+    }
+
+    /* 悬停效果：不加彩色，只让背景亮一点点 */
+    body.dark-mode .navbar-default .navbar-nav > li > a:hover,
+    body.dark-mode .navbar-default .navbar-nav > li > a:focus {
+        background-color: rgba(255, 255, 255, 0.08) !important;
+        color: var(--text-color) !important;
+    }
+}
+
+body.dark-mode .search-page {
+    background-color: var(--bg-color) !important;
+}
+
+body.dark-mode .search-page #search-input {
+    color: var(--text-color) !important;
+    background-color: transparent !important;
+}
+
+body.dark-mode .search-page .search-icon-close {
+    color: var(--text-color) !important;
+}
+
+body.dark-mode .search-page #search-results {
+    color: var(--text-color) !important;
+}
+
+body.dark-mode .search-page #search-results a {
+    color: var(--text-color) !important;
+}
+
+body.dark-mode .search-page #search-results a:hover {
+    color: #0085a1 !important;
+}
+
+body.dark-mode .intro-header.style-text .site-heading,
+body.dark-mode .intro-header.style-text .post-heading,
+body.dark-mode .intro-header.style-text .page-heading {
+    color: var(--text-color) !important;
+}
+
+body.dark-mode .intro-header.style-text .site-heading .subheading,
+body.dark-mode .intro-header.style-text .post-heading .subheading,
+body.dark-mode .intro-header.style-text .page-heading .subheading {
+    color: var(--text-color) !important;
+}
+
+body.dark-mode .intro-header.style-text .post-heading .meta,
+body.dark-mode .intro-header.style-text .post-heading .meta a {
+    color: var(--text-color) !important;
+}
+
+body.dark-mode .intro-header.style-text .tags a,
+body.dark-mode .intro-header.style-text .tags .tag {
+    border-color: var(--text-color) !important;
+    color: var(--text-color) !important;
+}
+
+body.dark-mode .intro-header.style-text .navbar-default .navbar-brand,
+body.dark-mode .intro-header.style-text .navbar-default .navbar-nav > li > a {
+    color: var(--text-color) !important;
+}
+
+body.dark-mode .intro-header.style-text .navbar-default .navbar-toggle .icon-bar {
+    background-color: var(--text-color) !important;
+}
+
+body.dark-mode .intro-header.style-text .navbar-default .search-icon a {
+    color: var(--text-color) !important;
 }
