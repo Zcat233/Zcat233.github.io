@@ -1,11 +1,11 @@
 body.dark-mode {
-  --bg-color: #1a1a1a;
+  --bg-color: #242424;
   --text-color: #e0e0e0;
   --accent-color: #bb86fc; 
-  --secondary-text: #a0a0a0;
+  --secondary-text: #ff00ff;
   --card-bg: #1e1e1e;
   --border-color: #333333;
-  --header-bg: #1a1a1a;
+  --header-bg: #242424;
 }
 
 body {
