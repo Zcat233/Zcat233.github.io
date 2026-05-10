@@ -10,7 +10,7 @@ body.dark-mode {
 
 body {
   background-color: var(--bg-color, #ffffff);
-  color: var(--text-color, #a3a3a3);
+  color: var(--text-color, #404040);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
