@@ -1,5 +1,5 @@
 body.dark-mode {
-  --bg-color: #121212;
+  --bg-color: #1a1a1a;
   --text-color: #e0e0e0;
   --accent-color: #bb86fc; 
   --secondary-text: #a0a0a0;
@@ -10,7 +10,7 @@ body.dark-mode {
 
 body {
   background-color: var(--bg-color, #ffffff);
-  color: var(--text-color, #404040);
+  color: var(--text-color, #a3a3a3);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
