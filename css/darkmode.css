@@ -130,21 +130,7 @@ body.dark-mode .intro-header.style-text .navbar-default .navbar-toggle .icon-bar
 body.dark-mode .intro-header.style-text .navbar-default .search-icon a {
     color: var(--text-color) !important;
 }
+
 body.dark-mode .post-container h2::before {
     border-bottom-color: #a8a8a8 !important;
-}
-
-/* 语言切换框深色模式修正 */
-body.dark-mode #lang-switch {
-    background-color: var(--bg-color) !important;
-    color: var(--text-color) !important;
-    border: 1px solid var(--border-color) !important;
-    padding: 5px 10px;
-    display: inline-block;
-}
-body.dark-mode #lang-switch a {
-    color: var(--text-color) !important;
-}
-body.dark-mode #lang-switch a:hover {
-    color: #0085a1 !important;
 }
