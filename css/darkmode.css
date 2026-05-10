@@ -1,0 +1,31 @@
+body.dark-mode {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --accent-color: #bb86fc; 
+  --secondary-text: #a0a0a0;
+  --card-bg: #1e1e1e;
+  --border-color: #333333;
+  --header-bg: #1a1a1a;
+}
+
+body {
+  background-color: var(--bg-color, #ffffff);
+  color: var(--text-color, #404040);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .navbar-custom,
+body.dark-mode footer,
+body.dark-mode .intro-header {
+  background-color: var(--header-bg) !important;
+  border-color: var(--border-color);
+}
+
+body.dark-mode .post-preview > a > .post-title,
+body.dark-mode .post-content {
+  color: var(--text-color) !important;
+}
+
+body.dark-mode img {
+  filter: brightness(.8) contrast(1.1);
+}
