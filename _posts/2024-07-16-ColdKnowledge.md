@@ -2,7 +2,7 @@
 layout: post
 title: 每日冷知识
 subtitle: ' "力争有趣，保证没用。"'
-date: 7024-07-16 18:30:00
+date: 2024-07-16 18:30:00
 author: Zcat233
 header-img: img/sea.jpg
 catalog: true
