@@ -1,75 +1,85 @@
 body.dark-mode {
-  --bg-color: #222222;
-  --text-color: #e0e0e0;
-  --accent-color: #bb86fc; 
-  --secondary-text: #a0a0a0;
-  --card-bg: #1e1e1e;
-  --border-color: #333333;
-  --header-bg: #242424;
+    --bg-color: #222222;
+    --text-color: #e0e0e0;
+    --border-color: #333333;
+    --chosen-color: #0085a1;
 }
 
 body {
-  background-color: var(--bg-color, #ffffff);
-  color: var(--text-color, #404040);
-  transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: var(--bg-color, #ffffff);
+    color: var(--text-color, #404040);
+    /* 在这里加上 border-color 的过渡 */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, border-top-color 0.3s ease, border-bottom-color 0.3s ease;
 }
 
-body.dark-mode .post-preview > a > .post-title,
+/* 同时确保 body 下面的所有子元素的边框也能响应过渡动画 */
+body *,
+body *::before,
+body *::after {
+    transition: border-color 0.3s ease, border-top-color 0.3s ease, border-bottom-color 0.3s ease, background-color 0.3s ease;
+}
+
+/* 基础文字 */
+body.dark-mode .post-preview>a>.post-title,
 body.dark-mode .post-content {
-  color: var(--text-color) !important;
+    color: var(--text-color) !important;
 }
 
-body.dark-mode .post-preview > a > .post-subtitle {
-    color: #e0e0e0 !important;
+body.dark-mode .post-preview>a>.post-subtitle {
+    color: var(--text-color) !important;
 }
 
 body.dark-mode .post-content-preview {
     color: #888888 !important;
 }
 
+.post-preview>a>.post-title {
+    transition: color 0.3s ease !important;
+}
+
+/* 引用块 / 标注左侧条纹 */
 body.dark-mode blockquote {
     border-left-color: var(--border-color) !important;
 }
 
-body.dark-mode .pager li > a {
+/* 底部分页按钮 */
+body.dark-mode .pager li>a {
     background-color: var(--bg-color) !important;
     color: var(--text-color) !important;
     border: 1px solid var(--border-color) !important;
 }
 
-body.dark-mode .pager li > a:hover {
-    background-color: #0085a1 !important;
+body.dark-mode .pager li>a:hover {
+    background-color: var(--chosen-color) !important;
     color: white !important;
-    border: 1px solid #0085a1 !important;
+    border: 1px solid var(--chosen-color) !important;
 }
 
+/* 移动端边栏 */
 @media only screen and (max-width: 767px) {
-    /* 边栏背景黑色 */
     body.dark-mode .navbar-default .navbar-collapse {
         background-color: var(--bg-color) !important;
         border: 1px solid var(--border-color) !important;
         box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.6) !important;
     }
 
-    /* 边栏文字白色 */
-    body.dark-mode .navbar-default .navbar-nav > li > a {
+    body.dark-mode .navbar-default .navbar-nav>li>a {
         color: var(--text-color) !important;
     }
 
-    /* 边栏图标（月亮、搜索）同步变为白色 */
     body.dark-mode .search-icon a,
     body.dark-mode .search-icon-close {
         color: var(--text-color) !important;
     }
 
-    /* 悬停效果：不加彩色，只让背景亮一点点 */
-    body.dark-mode .navbar-default .navbar-nav > li > a:hover,
-    body.dark-mode .navbar-default .navbar-nav > li > a:focus {
+    body.dark-mode .navbar-default .navbar-nav>li>a:hover,
+    body.dark-mode .navbar-default .navbar-nav>li>a:focus {
         background-color: rgba(255, 255, 255, 0.08) !important;
         color: var(--text-color) !important;
     }
 }
 
+/* 全屏搜索界面 */
 body.dark-mode .search-page {
     background-color: var(--bg-color) !important;
 }
@@ -92,9 +102,10 @@ body.dark-mode .search-page #search-results a {
 }
 
 body.dark-mode .search-page #search-results a:hover {
-    color: #0085a1 !important;
+    color: var(--chosen-color) !important;
 }
 
+/* Header Style: Text */
 body.dark-mode .intro-header.style-text .site-heading,
 body.dark-mode .intro-header.style-text .post-heading,
 body.dark-mode .intro-header.style-text .page-heading {
@@ -119,7 +130,7 @@ body.dark-mode .intro-header.style-text .tags .tag {
 }
 
 body.dark-mode .intro-header.style-text .navbar-default .navbar-brand,
-body.dark-mode .intro-header.style-text .navbar-default .navbar-nav > li > a {
+body.dark-mode .intro-header.style-text .navbar-default .navbar-nav>li>a {
     color: var(--text-color) !important;
 }
 
@@ -131,6 +142,59 @@ body.dark-mode .intro-header.style-text .navbar-default .search-icon a {
     color: var(--text-color) !important;
 }
 
+/* ========== 导航栏修复 ========== */
+
+/* 普通状态（拉到顶端时）：完全透明 */
+body.dark-mode .navbar-custom {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+/* 滚动固定状态（用户下拉后）：半透明黑色 */
+body.dark-mode .navbar-custom.is-fixed {
+    background-color: rgba(34, 34, 34, 0.9) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+/* 导航栏文字颜色保持浅色 */
+body.dark-mode .navbar-custom .navbar-brand,
+body.dark-mode .navbar-custom .navbar-nav > li > a {
+    color: var(--text-color) !important;
+}
+
+/* 导航栏文字颜色保持浅色可见 */
+body.dark-mode .navbar-custom .navbar-brand,
+body.dark-mode .navbar-custom .navbar-nav>li>a {
+    color: #ffffff !important;
+}
+
+/* 强制手机端汉堡菜单变成白色 */
+body.dark-mode .navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff !important;
+}
+
+/* ========== 分割线与边框修复 ========== */
+
+/* 普通分割线 */
+body.dark-mode hr {
+    border-top-color: var(--border-color) !important;
+}
+
+/* 文章标题下分割线 */
 body.dark-mode .post-container h2::before {
-    border-bottom-color: #a8a8a8 !important;
+    border-bottom-color: var(--border-color) !important;
+}
+
+/* 表格边框 */
+body.dark-mode table,
+body.dark-mode .table,
+body.dark-mode .table>tbody>tr>td,
+body.dark-mode .table>tbody>tr>th,
+body.dark-mode .table>thead>tr>th {
+    border-color: var(--border-color) !important;
+}
+
+/* 评论区边框 */
+body.dark-mode .comment {
+    border-top-color: var(--border-color) !important;
 }
