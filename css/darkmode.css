@@ -143,7 +143,7 @@ body.dark-mode .navbar-custom {
 
 /* 滚动固定状态（用户下拉后）：半透明黑色 */
 body.dark-mode .navbar-custom.is-fixed {
-    background-color: rgba(0, 0, 0, 0.9) !important;
+    background-color: rgba(34, 34, 34, 0.9) !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
 }
