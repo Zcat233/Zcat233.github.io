@@ -160,16 +160,21 @@ body.dark-mode .navbar-custom .navbar-nav>li>a {
     color: var(--text-color) !important;
 }
 
+/* 强制手机端汉堡菜单变成白色 */
+body.dark-mode .navbar-default .navbar-toggle .icon-bar {
+    background-color: #e0e0e0 !important;
+}
+
 /* ========== 分割线与边框修复 ========== */
 
 /* 普通分割线 */
 body.dark-mode hr {
-    border-top-color: #a8a8a8 !important;
+    border-top-color: #333333 !important;
 }
 
 /* 文章标题下分割线 */
 body.dark-mode .post-container h2::before {
-    border-bottom-color: #a8a8a8 !important;
+    border-bottom-color: #333333 !important;
 }
 
 /* 表格边框 */
@@ -184,9 +189,4 @@ body.dark-mode .table>thead>tr>th {
 /* 评论区边框 */
 body.dark-mode .comment {
     border-top-color: var(--border-color) !important;
-}
-
-/* 强制手机端右上角的三条横线图标变成白色 */
-body.dark-mode .navbar-default .navbar-toggle .icon-bar {
-    background-color: #e0e0e0 !important;
 }
