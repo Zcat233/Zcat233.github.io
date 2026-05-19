@@ -185,3 +185,8 @@ body.dark-mode .table>thead>tr>th {
 body.dark-mode .comment {
     border-top-color: var(--border-color) !important;
 }
+
+/* 强制手机端右上角的三条横线图标变成白色 */
+body.dark-mode .navbar-default .navbar-toggle .icon-bar {
+    background-color: #e0e0e0 !important;
+}
