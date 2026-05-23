@@ -3,7 +3,7 @@ body.dark-mode {
     --text-color: #e0e0e0;
     --border-color: #333333;
     --chosen-color: #0085a1;
-    --secondary-text: #a0a0a0;
+    --secondary-text: rgba(255, 255, 255, 0.8);
 }
 
 /* ========== 全局基础样式 ========== */
@@ -186,7 +186,7 @@ body.dark-mode .navbar-custom.is-fixed .navbar-nav > li > a:hover {
 
 body.dark-mode .navbar-custom .navbar-brand:active,
 body.dark-mode .navbar-custom .navbar-nav > li > a:active {
-    color: var(--secondary-text, #a0a0a0) !important;
+    color: var(--secondary-text, rgba(255, 255, 255, 0.8)) !important;
 }
 
 /* ========== 分割线与边框修复 ========== */
