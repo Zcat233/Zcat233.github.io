@@ -146,13 +146,11 @@ body.dark-mode .intro-header.style-text .navbar-default .search-icon a {
 
 /* ========== 导航栏核心修复 ========== */
 
-/* 普通状态（拉到顶端）：完全透明 */
 body.dark-mode .navbar-custom {
     background-color: transparent !important;
     border: none !important;
 }
 
-/* 滚动固定状态：半透明黑色 */
 body.dark-mode .navbar-custom.is-fixed {
     background-color: rgba(34, 34, 34, 0.9) !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
@@ -166,7 +164,7 @@ body:not(.dark-mode) .navbar-custom.is-fixed {
 /* ========== 导航栏文字颜色（不再强制 !important） ========== */
 body.dark-mode .navbar-custom .navbar-brand,
 body.dark-mode .navbar-custom .navbar-nav > li > a {
-    color: #ffffff; /* 默认白色，无 !important，允许被其他状态覆盖 */
+    color: #ffffff;
 }
 
 /* 强制手机端汉堡菜单变成白色 */
@@ -176,19 +174,16 @@ body.dark-mode .navbar-default .navbar-toggle .icon-bar {
 
 /* ========== 导航栏交互高亮（分透明/不透明状态） ========== */
 
-/* 1. 透明状态（拉到顶端）悬停：变灰 */
 body.dark-mode .navbar-custom:not(.is-fixed) .navbar-brand:hover,
 body.dark-mode .navbar-custom:not(.is-fixed) .navbar-nav > li > a:hover {
-    color: var(--secondary-text, #a0a0a0) !important;
+    color: var(--secondary-text, rgba(255,255,255,0.8)) !important;
 }
 
-/* 2. 固定状态（不透明）悬停：变蓝 */
 body.dark-mode .navbar-custom.is-fixed .navbar-brand:hover,
 body.dark-mode .navbar-custom.is-fixed .navbar-nav > li > a:hover {
     color: var(--chosen-color, #0085a1) !important;
 }
 
-/* 3. 手机端点击/长按：变灰（覆盖所有情况） */
 body.dark-mode .navbar-custom .navbar-brand:active,
 body.dark-mode .navbar-custom .navbar-nav > li > a:active {
     color: var(--secondary-text, #a0a0a0) !important;
