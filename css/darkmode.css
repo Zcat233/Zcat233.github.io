@@ -1,3 +1,4 @@
+/* ========== 深色模式变量 ========== */
 body.dark-mode {
     --bg-color: #222222;
     --text-color: #e0e0e0;
@@ -146,44 +147,46 @@ body.dark-mode .intro-header.style-text .navbar-default .search-icon a {
 
 /* ========== 导航栏核心修复 ========== */
 
+/* 深色模式：普通状态（拉到顶端）透明 */
 body.dark-mode .navbar-custom {
     background-color: transparent !important;
     border: none !important;
 }
 
+/* 深色模式：滚动固定状态半透明黑色 */
 body.dark-mode .navbar-custom.is-fixed {
     background-color: rgba(34, 34, 34, 0.9) !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
 }
 
-/* 修复横屏切换时，浅色模式下 border 闪现白色 */
-body:not(.dark-mode) .navbar-custom.is-fixed {
-    border-bottom-color: transparent !important;
-}
+/* 【重要修复】删除了浅色模式边框强制透明规则，让浅色模式恢复原样 */
 
-/* ========== 导航栏文字颜色（不再强制 !important） ========== */
+/* 深色模式：导航栏默认文字白色（加 !important 防止被覆盖） */
 body.dark-mode .navbar-custom .navbar-brand,
 body.dark-mode .navbar-custom .navbar-nav > li > a {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
-/* 强制手机端汉堡菜单变成白色 */
+/* 深色模式：移动端汉堡菜单白色 */
 body.dark-mode .navbar-default .navbar-toggle .icon-bar {
     background-color: #ffffff !important;
 }
 
 /* ========== 导航栏交互高亮（分透明/不透明状态） ========== */
 
+/* 透明状态悬停：半透明白色 */
 body.dark-mode .navbar-custom:not(.is-fixed) .navbar-brand:hover,
 body.dark-mode .navbar-custom:not(.is-fixed) .navbar-nav > li > a:hover {
     color: var(--secondary-text, rgba(255,255,255,0.8)) !important;
 }
 
+/* 固定状态悬停：蓝色 */
 body.dark-mode .navbar-custom.is-fixed .navbar-brand:hover,
 body.dark-mode .navbar-custom.is-fixed .navbar-nav > li > a:hover {
     color: var(--chosen-color, #0085a1) !important;
 }
 
+/* 点击状态：半透明白色 */
 body.dark-mode .navbar-custom .navbar-brand:active,
 body.dark-mode .navbar-custom .navbar-nav > li > a:active {
     color: var(--secondary-text, rgba(255, 255, 255, 0.8)) !important;
