@@ -7,6 +7,7 @@ header-style: text
 catalog: false
 hidden: true
 tags:
+  - HuxBlog
 ---
 > 在知乎被删帖，我理解知乎。
 > 你说你们做不了什么，我也理解你们。

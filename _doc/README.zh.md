@@ -12,7 +12,7 @@
 使用`jekyll server`的同学需要这样：
 
 1. `gem update jekyll` # 更新jekyll
-2. `gem update github-pages` #更新依赖的包
+2. `gem update github-pages` # 更新依赖的包
 
 使用`bundle exec jekyll server`的同学在更新jekyll后，需要输入`bundle update`来更新依赖的包.
 
