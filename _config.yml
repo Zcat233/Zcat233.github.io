@@ -93,13 +93,9 @@ page-mathjax: true
 friends:
   [
     { title: "网易云解析", href: "https://api.toubiec.cn/wyapi.html" },
-    { title: "WeirdFonts", href: "https://beizhedenglong.github.io/weird-fonts/" },
-    # { title: "B站视频下载", href: "https://snapany.com/zh/bilibili" },
+    { title: "Weird Fonts", href: "https://zcat233.github.io/Raw-Files/" },
     { title: "Bing壁纸", href: "https://peapix.com/bing" },
-    # { title: "Chunkbase", href: "https://www.chunkbase.com/apps/seed-map#0" },
-    # { title: "Desmos", href: "https://www.desmos.com/?lang=zh-CN" },
     { title: "Button", href: "https://willyoupressthebutton.com/" },
-    # { title: "另一个B站视频下载", href: "https://www.xiazaitool.com/blbl" },
     { title: "DLFM-Wiki", href: "https://dlfm-wiki.top/" },
     { title: "图片放大", href: "https://bigjpg.com/" },
     { title: "WindySky'sJourney", href: "https://windyskysjourney.dpdns.org/#" },
