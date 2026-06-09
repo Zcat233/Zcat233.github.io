@@ -1,0 +1,26 @@
+<!-- 引入 APlayer 的 CSS 和 JS（CDN） -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+
+<!-- 播放器容器 -->
+<div id="aplayer-{{ include.id | default: 'default' }}"></div>
+
+<script>
+    (function () {
+        var container = document.getElementById('aplayer-{{ include.id | default: "default" }}');
+        if (!container) return;
+
+        var ap = new APlayer({
+            container: container,
+            audio: [{
+                name: '{{ include.name | default: "歌名" }}',
+                artist: '{{ include.artist | default: "艺术家" }}',
+                url: '{{ include.url }}',
+                cover: '{{ include.cover | default: "" }}'
+            }],
+            autoplay: {{ include.autoplay | default: false }},
+        lrcType: { { include.lrcType | default: 0 } },
+    volume: { { include.volume | default: 1.0 } }
+        });
+    }) ();
+</script>
