@@ -1,26 +1,51 @@
-<!-- 引入 APlayer 的 CSS 和 JS（CDN） -->
+<!-- 加载 APlayer 的 CSS 和 JS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
 <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
 
 <!-- 播放器容器 -->
-<div id="aplayer-{{ include.id | default: 'default' }}"></div>
+<div id="aplayer-container-{{ include.id | default: 'main' }}"></div>
 
+<!-- 初始化播放器 -->
 <script>
     (function () {
-        var container = document.getElementById('aplayer-{{ include.id | default: "default" }}');
-        if (!container) return;
+        // 获取容器
+        var containerId = 'aplayer-container-{{ include.id | default: "main" }}';
+        var container = document.getElementById(containerId);
+        if (!container) {
+            console.error('APlayer 容器未找到：' + containerId);
+            return;
+        }
 
+        // 检查 APlayer 是否加载成功
+        if (typeof APlayer === 'undefined') {
+            console.error('APlayer 库未加载，请检查网络连接或 CDN 地址。');
+            return;
+        }
+
+        // 从 include 参数读取音频信息
+        var audioUrl = '{{ include.url }}';
+        var songName = '{{ include.name | default: "歌名" }}';
+        var artistName = '{{ include.artist | default: "艺术家" }}';
+        var coverUrl = '{{ include.cover | default: "" }}';
+
+        if (!audioUrl) {
+            console.error('缺少音乐文件链接，请检查 include 参数中的 url 是否填写。');
+            container.innerHTML = '⚠️ 请设置音乐链接';
+            return;
+        }
+
+        // 初始化播放器
         var ap = new APlayer({
             container: container,
+            lrcType: 0,
             audio: [{
-                name: '{{ include.name | default: "歌名" }}',
-                artist: '{{ include.artist | default: "艺术家" }}',
-                url: '{{ include.url }}',
-                cover: '{{ include.cover | default: "" }}'
-            }],
-            autoplay: {{ include.autoplay | default: false }},
-        lrcType: { { include.lrcType | default: 0 } },
-    volume: { { include.volume | default: 1.0 } }
+                name: songName,
+                artist: artistName,
+                url: audioUrl,
+                cover: coverUrl
+            }]
         });
-    }) ();
+
+        console.log('✅ APlayer 初始化成功');
+    })();
 </script>
