@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello"
+title: "HelloWorld"
 subtitle: 
 date: {{date}} {{time}}:00
 author: Zcat233
