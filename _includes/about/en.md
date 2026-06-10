@@ -6,6 +6,8 @@ Currently, this site is mainly used to document fragments of daily life — noth
 
 This site makes a few minor modifications to the original blog project while remaining compatible with Hux Blog.
 
+The dark mode feature was vibe-coded by Zcat himself, and there are still quite a few bugs, so just make do with it for now.
+
 ### Original Authors
 
 Below are the original authors of this blog and their repositories.
@@ -35,4 +37,4 @@ The **code** is licensed under the **Apache License 2.0**.
 
 **Blog posts, images, text, and other content** are licensed under the **CC BY-NC-ND 4.0** license.
 
-In short, unless otherwise noted, please contact Zcat233 at [zcat336886@outlook.com] for permission before republishing or adapting any original content.
+In short, unless otherwise noted, please contact Zcat233 at [mailto:zcat336886@outlook.com] for permission before republishing or adapting any original content.
