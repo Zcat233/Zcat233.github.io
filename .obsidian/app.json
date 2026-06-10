@@ -11,5 +11,16 @@
     "margin": "1",
     "downscalePercent": 100
   },
-  "newLinkFormat": "absolute"
+  "newLinkFormat": "absolute",
+  "mobileToolbarCommands": [
+    "editor:undo",
+    "editor:redo",
+    "editor:set-heading",
+    "editor:toggle-bold",
+    "editor:toggle-italics",
+    "highlightr-plugin:unhighlight",
+    "highlightr-plugin:highlighter-plugin-menu",
+    "editor:cycle-list-checklist",
+    "editor:configure-toolbar"
+  ]
 }
