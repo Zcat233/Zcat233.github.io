@@ -4,11 +4,10 @@ title: "10.20"
 subtitle:
 date: 2026-10-20 18:10:00
 author: Zcat233
-header-img: img/background/photo.jpg
+header-style: text
 catalog: true
 tags:
-  - Diary
-published: false
+hidden: true
 ---
 
 今天，上体育课，传来悲报。PCL和HMCL停止Minecraft的下载服务。对于这样国内mc基础设施级别的社区项目被打压，包括我在内的整个社区为之震惊。
